@@ -63,10 +63,5 @@ import { LuckDraw } from 'wd-lottery/vue3'
 > 为了避免 CDN 链接出现异常或波动，我非常建议你**缓存到本地或服务器**
 
 - **vue2.x：**
-  - **最新版本：** [https://cdn.jsdelivr.net/npm/wd-lottery/dist/wd-lottery.umd.min.js](https://cdn.jsdelivr.net/npm/wd-lottery/dist/wd-lottery.umd.min.js)
-
-<span></span>
-
-- **vue3.x：**
-  - **最新版本：** [https://cdn.jsdelivr.net/npm/wd-lottery/vue3/wd-lottery.umd.min.js](https://cdn.jsdelivr.net/npm/wd-lottery/vue3/wd-lottery.umd.min.js)
+  - **最新版本：** [https://cdn.jsdelivr.net/npm/wd-lottery/dist/wd-lottery.min.js](https://cdn.jsdelivr.net/npm/wd-lottery/dist/wd-lottery.min.js)
 
