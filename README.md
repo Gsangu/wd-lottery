@@ -24,10 +24,10 @@ yarn add wd-lottery
 
 ```js
 // vue2.x
-import { LuckDraw } from 'wd-lottery'
+import { LuckyWheel } from 'wd-lottery'
 
 // TODO: vue3.x 
-import { LuckDraw } from 'wd-lottery/vue3'
+import { LuckyWheel } from 'wd-lottery/vue3'
 ```
 
 3. 最后在组件内使用 **`<LuckyWheel></LuckyWheel>`大转盘抽奖**
@@ -40,17 +40,15 @@ import { LuckDraw } from 'wd-lottery/vue3'
       width="200px"
       height="200px"
     >
-    <template v-slot:bg>
-      <img src="转盘背景" class="bg" alt="">
-    </template>
+      <template v-slot:bg>
+        <img src="转盘背景" class="bg" alt="">
+      </template>
       <template v-slot:item="{ item }">
         <div class="info">
           <img class="prize-img" :src="item.image" />
           <div class="prize-name">{{item.name}}</div>
         </div>
       </template>
-    </lucky-wheel>
-
     </LuckWheel>
   </div>
 </template>
