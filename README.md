@@ -14,10 +14,10 @@
 
 ```shell
 # npm 安装：
-npm install vue-lottery
+npm install wd-lottery
 
 # yarn 安装：
-yarn add vue-lottery
+yarn add wd-lottery
 ```
 
 2. 然后找到 `main.js` 引入插件并 `use`
