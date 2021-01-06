@@ -92,4 +92,5 @@ import { LuckyWheel } from 'wd-lottery/vue3'
 ## Slot
 | name | 说明 |
 |-----|------|
-| over | 转盘停止转动 |
+| bg | 转盘背景 |
+| item | 转盘 Item 的内容 |
