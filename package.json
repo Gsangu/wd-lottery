@@ -1,8 +1,10 @@
 {
   "name": "wd-lottery",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "抽奖插件",
-  "main": "dist/wd-lottery.js",
+  "author": "Gsangu <gozhushi@qq.com>",
+  "main": "dist/wd-web-log.js",
+  "browser": "dist/wd-web-log.js",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack-dev-server --open --mode development"
@@ -17,7 +19,13 @@
     "type": "git",
     "url": "git+https://github.com/gsangu/wd-lottery.git"
   },
-  "author": "Gsangu",
+  "bugs": {
+    "url": "https://github.com/Gsangu/wd-lottery/issues"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
