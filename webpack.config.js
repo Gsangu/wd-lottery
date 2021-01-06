@@ -12,8 +12,7 @@ module.exports = {
     headers: {
       'Access-Control-Allow-Origin': '*'
     },
-    index: './examples/index.html',
-    // 查阅 https://github.com/vuejs/vue-doc-zh-cn/vue-cli/cli-service.md#配置代理
+    index: './docs/index.html',
     before: app => {
     }
   },
